@@ -10,12 +10,12 @@ Each team should submit only one file: `solution.pyz`: the zipped package of `so
 │   ├── requirments.txt
 │   ├── __main__.py
 │   ├── main.py
-│   └── other_files
+│   └── resources
 ```
 * `requirments.txt`: Include all your dependencies. Make sure their versions are compatible on the Rawspberry Pi . 
 * `__main__.py`: Used to run `solution/`. DO NOT modify.
 * `main.py`: The script that we will use to execute your solution. Details are listed in the comments inside. 
-* `other_files`: Any other files that you used to run your solution. 
+* `resources`: Any other files that you used to run your solution. 
 
 ### Output
 Your solution is expected to generate an `answer.txt` under the current directory. 
