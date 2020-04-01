@@ -1,5 +1,5 @@
 # 2020 CVPR LPCVC Workshop - UAV Video Track Sample Solution
-__Welcome to 20LPCVC UAV Video Track!__ Here we provide you the sample solution of the challege described at **[Track Information](https://lpcv.ai/2020CVPR/video-track)**.
+__Welcome to 20LPCVC UAV Video Track!__ Here we provide the submission instruction and sample solutions of the challege described at **[Track Information](https://lpcv.ai/2020CVPR/video-track)**.
 
 ## Submission Instruction
 _Notice: The names of files or folders are sensitive._
