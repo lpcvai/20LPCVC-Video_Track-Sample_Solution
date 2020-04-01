@@ -4,11 +4,15 @@ import sys
 def main():
 	"""
 		This is the script wil be used to execute your solution. Make sure your
-		ourput format is the same as instructed in the GitHub repo.
+		output format is the same as instructed in the GitHub repo.
 
-		Notice that the input format should not be changed. The following command will be used
-		to run your solution (after unzip your solution.pyz):
-		$ python solution/ video.mp4 questions.txt
+		Notice that the input format should not be changed. The following commands will be used
+		to run your solution:
+		$ unzip solution.pyz -d solution/
+		$ pip3 install -r solution/requirements.txt
+		$ python3 solution/ video.mp4 questions.txt
+
+		Only the last line will be monitored by the power meter for efficiency and performance.
 	"""
 	with open(sys.argv[1]) as video, open(sys.argv[2]) as questions:
 		# load resources
