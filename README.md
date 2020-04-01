@@ -4,9 +4,9 @@ __Welcome to 20LPCVC UAV Video Track!__ Here we provide the submission instructi
 ## Submission Instruction
 _Notice: The names of files or folders are sensitive._
 
-Each team should submit only one file: `solution.pyz`, which the zipped package of `solution/`. You should use __[zipapp](https://docs.python.org/3/library/zipapp.html)__ to create the `.pyz` file from your solution folder. 
+Each team should submit only one file: `solution.pyz`: the zipped package of `solution/`. You should use __[zipapp](https://docs.python.org/3/library/zipapp.html)__ to create the `.pyz` file from your solution folder. 
 ```bash
-├── solution
+├── solution/
 │   ├── requirments.txt
 │   ├── __main__.py
 │   ├── main.py
