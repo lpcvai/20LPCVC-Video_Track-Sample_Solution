@@ -21,7 +21,7 @@ Each team should submit only one file: `solution.pyz`: the zipped package of `so
 Your solution is expected to generate an `answer.txt` under the current directory. 
 ```bash
 ├── solution.pyz
-└── answer.txt
+└── answers.txt
 ```
 
 ## Sample Solutions
