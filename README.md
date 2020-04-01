@@ -26,5 +26,6 @@ Your solution is expected to generate an `answer.txt` under the current director
 
 ## Sample Solution
 We provide multiple sample solutions with different approaches to help you understand this challenge better. 
-* **[Facebook Baseline Solution](https://github.com/sstsai-adl/workshops/tree/master/LPCV_2020/uav_video_challenge)**: This is the basline solution provided by the Sponsor of this track -- Facebook. 
+* **[Facebook Baseline Solution](https://github.com/sstsai-adl/workshops/tree/master/LPCV_2020/uav_video_challenge)**: This is the basline solution provided by the Sponsor of this track Facebook. 
+* `sample_sol01/`: a simple solutio we provide to demonstrate the submission structure. A more complicated solution will be updated soon.
 
