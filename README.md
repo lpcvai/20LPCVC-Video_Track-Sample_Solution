@@ -31,6 +31,17 @@ Your solution is expected to generate an `answer.txt` under the current director
 └── answers.txt
 ```
 
+## Evaluation Environment
+
+* OS:
+  ```
+  Distributor ID:	Raspbian
+  Description:	Raspbian GNU/Linux 9.3 (stretch)
+  Release:	9.3
+  Codename:	stretch
+  ```
+* Python: Python 3.7
+
 ## Sample Solutions
 We provide multiple sample solutions with different approaches to help you understand this challenge better.
 * **[Facebook Baseline Solution](https://github.com/sstsai-adl/workshops/tree/master/LPCV_2020/uav_video_challenge)**: This is the baseline solution provided by the Sponsor of this track Facebook.
