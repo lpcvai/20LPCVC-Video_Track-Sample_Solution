@@ -1,5 +1,11 @@
 # 2020 CVPR LPCVC Workshop - UAV Video Track Sample Solution
-__Welcome to 20LPCVC UAV Video Track!__ Here we provide the submission instruction and sample solutions of the challenge described at **[Track Information](https://lpcv.ai/2020CVPR/video-track)**.
+__Welcome to 20LPCVC UAV Video Track!__ Here we provide the sample solutions and submission instruction of the challenge described at **[Track Information](https://lpcv.ai/2020CVPR/video-track)**.
+
+## Sample Solutions
+We provide multiple sample solutions with different approaches to help you understand this challenge better.
+* **[Facebook Baseline Solution](https://github.com/sstsai-adl/workshops/tree/master/LPCV_2020/uav_video_challenge)**: This is the baseline solution provided by the Sponsor of this track Facebook.
+* `simple_solution/`: a simple skeleton solution we provide to demonstrate the submission structure. A more complicated solution will be updated soon.
+
 
 ## Submission Instruction
 _Notice: The names of files or folders are sensitive._
@@ -41,8 +47,3 @@ Your solution is expected to generate an `answer.txt` under the current director
   Codename:	stretch
   ```
 * Python: Python 3.7
-
-## Sample Solutions
-We provide multiple sample solutions with different approaches to help you understand this challenge better.
-* **[Facebook Baseline Solution](https://github.com/sstsai-adl/workshops/tree/master/LPCV_2020/uav_video_challenge)**: This is the baseline solution provided by the Sponsor of this track Facebook.
-* `simple_solution/`: a simple skeleton solution we provide to demonstrate the submission structure. A more complicated solution will be updated soon.
