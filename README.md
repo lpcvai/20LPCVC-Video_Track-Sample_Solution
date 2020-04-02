@@ -20,9 +20,9 @@ Each team should submit only one file: `solution.pyz`: the zipped package of `so
 ### Creating `.pyz` files
 We recommend zipping your solution using the following command. It adds a shebang line that we are able to use to identify what version of Python you are using.
 ```
-python3 -m zipapp solution -p='/usr/bin/env python3.6'
+python3 -m zipapp solution -p='/usr/bin/env python3.7'
 ```
-The valid versions of Python for the challenge are the latest patch versions of Python 3.6, 3.7, and 3.8. If a shebang isn't specified, 3.6 will be used.
+The valid versions of Python for the challenge are the latest patch versions of Python 3.7. The command above specifies the shebang of your solution. 
 
 ### Output
 Your solution is expected to generate an `answer.txt` under the current directory when run. See comments in [`main.py`](simple_solution/main.py) to see how the solution will be run.
