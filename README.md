@@ -42,8 +42,8 @@ Your solution is expected to generate an `answer.txt` under the current director
 * OS:
   ```
   Distributor ID:	Raspbian
-  Description:	Raspbian GNU/Linux 9.3 (stretch)
-  Release:	9.3
-  Codename:	stretch
+  Description:	Raspbian GNU/Linux 10 (buster)
+  Release:	10
+  Codename:	buster
   ```
-* Python: Python 3.7
+* Python 3.7
