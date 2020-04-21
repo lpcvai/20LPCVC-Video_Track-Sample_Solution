@@ -9,7 +9,9 @@ def main():
 		Notice that the input format should not be changed. The following commands will be used
 		to run your solution:
 		$ unzip solution.pyz -d solution/
-		$ pip3 install -r solution/requirements.txt
+		$ cd solution/
+		$ pip3 install -r requirements.txt
+		$ cd ../
 		$ python3 solution/ video.mp4 questions.txt
 
 		Only the last line will be monitored by the power meter for efficiency and performance.
