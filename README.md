@@ -66,4 +66,5 @@ REDHAT_SUPPORT_PRODUCT_VERSION=32
 PRIVACY_POLICY_URL="https://fedoraproject.org/wiki/Legal:PrivacyPolicy"
 ```
 * Python 3.7 (64-bit)
-* Notice that you need to make sure you have pytorch built correctly when testing your own solution. Here we provide the pre-built wheel of `torch-1.6` on `linux_armv7l`. You can find the file **[`torch-1.6.0a0+a0dc36e-cp37-cp37m-linux_armv7l.whl`](https://github.com/lpcvai/20LPCVC-Video_Track-Sample_Solution/blob/master/torch-1.6.0a0%2Ba0dc36e-cp37-cp37m-linux_armv7l.whl)** in this repo.  
+* Notice that you need to make sure you have pytorch built correctly when testing your own solution. Here we provide the pre-built wheel of `torch-1.6` on `linux_armv7l`. You can find the file **[`torch-1.6.0a0+a0dc36e-cp37-cp37m-linux_armv7l.whl`](https://github.com/lpcvai/20LPCVC-Video_Track-Sample_Solution/blob/master/torch-1.6.0a0%2Ba0dc36e-cp37-cp37m-linux_armv7l.whl)** in this repo. 
+* The script that will be used to calculate the score of your submission file is under `evaluation/`. Please check [Evaluation Workflow](https://github.com/lpcvai/20LPCVC-Video_Track-Sample_Solution/wiki/Evaluation-Workflow) on the Wiki for details.
