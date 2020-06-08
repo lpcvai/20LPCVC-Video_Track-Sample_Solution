@@ -5,7 +5,7 @@ Here we provide the sample solutions and submission instruction of the challenge
 
 ## Sample Solutions
 We provide multiple sample solutions with different approaches to help you understand this challenge better.
-* **[Facebook Baseline Solution](https://github.com/sstsai-adl/workshops/tree/master/LPCV_2020/uav_video_challenge)**: This is the baseline solution provided by the Sponsor of this track Facebook.
+* **[Facebook Baseline Solution](https://github.com/sstsai-adl/workshops/tree/master/LPCV_2020/uav_video_challenge)**: This is the baseline solution provided by the Sponsor of this track Facebook. From this solution, there are two versions called `fb_sol_v1` and `fb_sol_v2` provided in this repo. The latest version will be used as basline solution for evaluation.
 * `simple_solution/`: a simple skeleton solution we provide to demonstrate the submission structure. A more complicated solution will be updated soon.
 
 
@@ -43,11 +43,26 @@ Your solution is expected to generate an `answer.txt` under the current director
 ## Evaluation Environment
 
 * OS (updated):
-  ```
-  Distributor ID:	Raspbian
-  Description:	Raspbian GNU/Linux 10 (buster)
-  Release:	10
-  Codename:	buster
-  ```
-* Python 3.7
+```
+NAME=Fedora
+VERSION="32 (Thirty Two)"
+ID=fedora
+VERSION_ID=32
+VERSION_CODENAME=""
+PLATFORM_ID="platform:f32"
+PRETTY_NAME="Fedora 32 (Thirty Two)"
+ANSI_COLOR="0;34"
+LOGO=fedora-logo-icon
+CPE_NAME="cpe:/o:fedoraproject:fedora:32"
+HOME_URL="https://fedoraproject.org/"
+DOCUMENTATION_URL="https://docs.fedoraproject.org/en-US/fedora/f32/system-administrators-guide/"
+SUPPORT_URL="https://fedoraproject.org/wiki/Communicating_and_getting_help"
+BUG_REPORT_URL="https://bugzilla.redhat.com/"
+REDHAT_BUGZILLA_PRODUCT="Fedora"
+REDHAT_BUGZILLA_PRODUCT_VERSION=32
+REDHAT_SUPPORT_PRODUCT="Fedora"
+REDHAT_SUPPORT_PRODUCT_VERSION=32
+PRIVACY_POLICY_URL="https://fedoraproject.org/wiki/Legal:PrivacyPolicy"
+```
+* Python 3.7 (64-bit)
 * Notice that you need to make sure you have pytorch built correctly when testing your own solution. Here we provide the pre-built wheel of `torch-1.6` on `linux_armv7l`. You can find the file **[`torch-1.6.0a0+a0dc36e-cp37-cp37m-linux_armv7l.whl`](https://github.com/lpcvai/20LPCVC-Video_Track-Sample_Solution/blob/master/torch-1.6.0a0%2Ba0dc36e-cp37-cp37m-linux_armv7l.whl)** in this repo.  
