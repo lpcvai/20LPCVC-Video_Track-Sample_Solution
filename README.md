@@ -1,5 +1,5 @@
 # 2020 CVPR LPCVC Workshop - UAV Video Track Sample Solution
-__Welcome to 20LPCVC UAV Video Track!__ 
+__Welcome to 20LPCVC UAV Video Track!__
 
 Here we provide the sample solutions and submission instruction of the challenge described at **[Track Information](https://lpcv.ai/2020CVPR/video-track)**.
 
@@ -28,9 +28,10 @@ Each team should submit only one file: `solution.pyz`: the zipped package of `so
 ### Creating `.pyz` files
 We recommend zipping your solution using the following command. It adds a shebang line that we are able to use to identify what version of Python you are using.
 ```
-python3 -m zipapp solution -p='/usr/bin/env python3.7'
+python3 -m zipapp solution -p='/usr/bin/env python3.8'
 ```
-The valid versions of Python for the challenge are the latest patch versions of Python 3.7. The command above specifies the shebang of your solution. 
+The valid version of Python for the challenge is the latest patch version of CPython 3.8 for the AArch64 architecture. The command above specifies the shebang of your solution.
+If you intend on using a different version of Python, please contact the organizers as soon as possible via Slack.
 
 ### Output
 Your solution is expected to generate an `answer.txt` under the current directory when run. See comments in [`main.py`](simple_solution/main.py) to see how the solution will be run.
