@@ -15,11 +15,11 @@ _Notice: The names of files or folders are sensitive._
 
 Each team should submit only one file: `solution.pyz`: the zipped package of `solution/`. You should use __[zipapp](https://docs.python.org/3/library/zipapp.html)__ to create the `.pyz` file from your solution folder.
 ```
-├── solution/
-│   ├── requirements.txt
-│   ├── __main__.py
-│   ├── main.py
-│   └── other modules and resources
+└── solution/
+    ├── requirements.txt
+    ├── __main__.py
+    ├── main.py
+    └── other modules and resources
 ```
 * `requirements.txt`: Include all your dependencies. Make sure their versions are compatible on the Raspberry Pi .
 * `__main__.py`: Used to run `solution/`. DO NOT modify.
@@ -65,6 +65,6 @@ REDHAT_SUPPORT_PRODUCT="Fedora"
 REDHAT_SUPPORT_PRODUCT_VERSION=32
 PRIVACY_POLICY_URL="https://fedoraproject.org/wiki/Legal:PrivacyPolicy"
 ```
-* Python 3.7 (64-bit)
-* Notice that you need to make sure you have pytorch built correctly when testing your own solution. Here we provide the pre-built wheel of `torch-1.6` on `linux_armv7l`. You can find the file **[`torch-1.6.0a0+a0dc36e-cp37-cp37m-linux_armv7l.whl`](https://github.com/lpcvai/20LPCVC-Video_Track-Sample_Solution/blob/master/torch-1.6.0a0%2Ba0dc36e-cp37-cp37m-linux_armv7l.whl)** in this repo. 
+* CPython 3.8 (64-bit)
+* Notice that you need to make sure you have pytorch built correctly when testing your own solution. Here we provide the pre-built wheel of `torch-1.6` on `linux_aarch64`. You can find the file **[`torch-1.6.0a0+503be4e-cp38-cp38-linux_aarch64.whl`](https://github.com/lpcvai/20LPCVC-Video_Track-Sample_Solution/blob/master/torch-1.6.0a0+503be4e-cp38-cp38-linux_aarch64.whl)** in this repo. 
 * The script that will be used to calculate the score of your submission file is under `evaluation/`. Please check [Evaluation Workflow](https://github.com/lpcvai/20LPCVC-Video_Track-Sample_Solution/wiki/Evaluation-Workflow) on the Wiki for details.
