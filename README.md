@@ -2,6 +2,7 @@
 __Welcome to 20LPCVC UAV Video Track!__
 
 Here we provide the sample solutions and submission instruction of the challenge described at **[Track Information](https://lpcv.ai/2020CVPR/video-track)**.
+Please always check the updates in this repo for any changes. Join our [Slack workspace](lpcvc.slack.com) for any questions! 
 
 ## Sample Solutions
 We provide multiple sample solutions with different approaches to help you understand this challenge better.
