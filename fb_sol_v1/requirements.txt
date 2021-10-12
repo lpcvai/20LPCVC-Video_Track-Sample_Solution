@@ -1,6 +1,6 @@
 future==0.18.2
 numpy==1.18.2
-opencv-contrib-python==4.1.0.25
+opencv-contrib-python==4.2.0.32
 opencv-python==4.1.1.26
 Pillow==7.1.1
 pkg-resources==0.0.0
