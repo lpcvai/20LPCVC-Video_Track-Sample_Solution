@@ -11,4 +11,4 @@
 # (ex. torch-1.6.0a0+503be4e-cp38-cp38-linux_aarch64.whl)
 # to use a local wheel of PyTorch. See fb_sol_v1 for the general structure.
 torch==1.6.*
-numpy==1.18.5
+numpy==1.22.0
